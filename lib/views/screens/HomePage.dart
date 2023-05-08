@@ -328,7 +328,7 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                             const SizedBox(
-                              height: 8,
+                              height: 2,
                             ),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
