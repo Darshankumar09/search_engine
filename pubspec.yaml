@@ -38,6 +38,7 @@ dependencies:
   connectivity_plus:
   provider:
   flutter_inappwebview:
+  shared_preferences:
 
 dev_dependencies:
   flutter_test:

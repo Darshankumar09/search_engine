@@ -7,6 +7,9 @@ class UrlModel {
 
   int? selectedOption = 0;
 
+  List<String> bookmarkPageName;
+  List<String> bookmarkPageUrl;
+
   TextEditingController searchController;
   InAppWebViewController? inAppWebViewController;
   PullToRefreshController? pullToRefreshController;
@@ -18,5 +21,7 @@ class UrlModel {
     this.pullToRefreshController,
     this.urlBookmark,
     this.selectedOption,
+    required this.bookmarkPageName,
+    required this.bookmarkPageUrl,
   });
 }
