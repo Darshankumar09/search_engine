@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.search_engine">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="search_engine"
         android:name="${applicationName}"
